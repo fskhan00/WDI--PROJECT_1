@@ -1,3 +1,130 @@
-body{
+body {
+  text-align: center;
+  /*margin: 0 auto;*/
+  /*vertical-align: middle;*/
+}
+
+.row {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  width: 1100px;
+  height: 60px;
+  /*background: green;*/
+}
+
+/*.row:first-child {
   background: blue;
+}
+
+.row:last-child {
+  background: yellow;
+}
+
+.row:nth-child(2) {
+  background: orange;
+}*/
+
+.board {
+  overflow: hidden;
+  margin: 0 auto;
+  width: 1000px;
+  height: 400px;
+  /*background: red;*/
+  position: static;
+}
+
+body {
+  height: 100vh;
+  background-image: url('http://strukturovanydialog.sk/wp-content/uploads/2016/04/multiplane_landscape.png');
+  background-size: cover;
+}
+
+.duck {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 60px;
+  /*background: black;*/
+  background-image: url('http://www.animatedimages.org/data/media/238/animated-eagle-image-0036.gif');
+  background-size: cover;
+  back
+}
+
+#reload{
+  width: 70px;
+  height:40px;
+  position: absolute;
+  border-radius: 8px;
+  background-color: green;
+  bottom: 100px;
+  left: 500px;
+
+}
+
+.start{
+  position: absolute;
+  bottom:100px;
+  right: 500px;
+  border-radius: 8px;
+  background-color: yellow;
+  width: 70px;
+  height:40px;
+
+}
+
+.score{
+  position: absolute;
+  top:30px;
+  right: 90px;
+  color: red;
+  list-style-type: none;
+  font-weight: bold;
+}
+.footer{
+  color: black;
+  bottom: 0;
+  margin-top: 190px;
+
+
+
+}
+
+
+.bullets {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.bullets {
+  float: left;
+
+}
+
+.bullets li {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: url(../images/bullet.png);
+  background-size: contain;
+}
+
+.social{
+  top:650px;
+  position: fixed;
+  font-weight: bold;
+  left:550px;
+}
+
+.level{
+  position: absolute;
+  list-style-type: none;
+  color: red;
+  font-weight: bold;
+  right: 1150px;
+  top: 30px;
+  font-stretch: expanded;
 }
